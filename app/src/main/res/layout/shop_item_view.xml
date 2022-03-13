@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="152dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:gravity="center">
+    
+    <ImageView
+        android:id="@+id/imageview_shop"
+        android:layout_width="match_parent"
+        android:layout_height="100.62dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <TextView
+        android:text="NEW ITEM"
+        android:textSize="9dp"
+        android:fontFamily="@font/jost_medium"
+        android:layout_marginTop="10.38dp"
+        android:layout_width="152dp"
+        android:textColor="#E75D1D"
+        android:layout_height="23dp"/>
+    <TextView
+        android:id="@+id/textview_name_shop"
+        android:text="Boiled Snow Crab Meat Flake - Approx 200g/Pack"
+        android:fontFamily="@font/jost_light"
+        android:layout_width="152dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+        android:textColor="#121212"
+        />
+    <TextView
+        android:id="@+id/textview_price_shop"
+        android:layout_width="152dp"
+        android:layout_height="19dp"
+        android:text="$53.90"
+        android:textSize="13dp"
+        android:fontFamily="@font/jost_medium"
+        android:textColor="#121212"/>
+    <LinearLayout
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="47dp">
+
+        <ImageButton
+            android:layout_width="10.49dp"
+            android:layout_height="9.16dp"
+
+            android:layout_marginLeft="0.2dp"
+            android:layout_marginTop="8.48dp"
+            android:src="@drawable/ic_favorite" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="13.84dp"
+            android:background="@drawable/shape_button"
+            android:text="Add to cart"
+            android:textSize="11dp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

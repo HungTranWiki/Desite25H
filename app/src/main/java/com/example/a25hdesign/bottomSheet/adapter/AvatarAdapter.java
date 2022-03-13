@@ -3,6 +3,7 @@ package com.example.a25hdesign.bottomSheet.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ public class AvatarAdapter extends RecyclerView.Adapter<AvatarAdapter.AvartarVie
 
     public AvatarAdapter(List<AvatarModel> mListAvatar) {
         this.mListAvatar = mListAvatar;
+        notifyDataSetChanged();
     }
 
     @NonNull
@@ -50,11 +52,15 @@ public class AvatarAdapter extends RecyclerView.Adapter<AvatarAdapter.AvartarVie
     }
 
     public class AvartarViewHolder extends RecyclerView.ViewHolder{
-        ImageView imgAvatar;
+        ImageButton imgAvatar;
         ImageView imgSmallIcon;
         TextView tvName;
         public AvartarViewHolder(@NonNull View itemView) {
             super(itemView);
+
+            imgAvatar = itemView.findViewById(R.id.image_avatar1);
+            imgSmallIcon = itemView.findViewById(R.id.image_small_icon1);
+            tvName = itemView.findViewById(R.id.textview_name_avatar1);
         }
     }
 }

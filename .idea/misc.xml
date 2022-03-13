@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/drawable/ic_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/drawable/shape_button.xml" value="0.1" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/activity_bottom_sheet.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/activity_favorite.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/activity_main.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/activity_my_favourite.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/events_fragment.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/events_item_view.xml" value="0.1" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/horizontal_line.xml" value="0.10914855072463768" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_app.xml" value="0.10914855072463768" />
-        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_avatar.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_avatar.xml" value="0.17" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_privileges.xml" value="0.10914855072463768" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.10914855072463768" />
       </map>

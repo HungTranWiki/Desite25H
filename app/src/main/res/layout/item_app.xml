@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginRight="30dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/button_app_share"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/icon_messenger"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textview_name_appshare"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_app_share"
+        android:layout_marginBottom="-40dp"
+        android:gravity="center"
+        android:text="Messenger"
+        android:textSize="15dp" />
+
+</RelativeLayout>

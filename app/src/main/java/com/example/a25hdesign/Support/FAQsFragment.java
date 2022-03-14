@@ -1,5 +1,8 @@
 package com.example.a25hdesign.Support;
 
+import static com.example.a25hdesign.R.font.jost_light;
+
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -25,6 +28,7 @@ import java.util.List;
 public class FAQsFragment extends Fragment {
     RecyclerView rcvFAQs;
     SupportAdapter mSupportAdapter;
+    View view = null;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -34,7 +38,7 @@ public class FAQsFragment extends Fragment {
                 onClickItem(tvTitle, tvContent, itemSupportModel);
             }
         });
-        View view = inflater.inflate(R.layout.fragment_f_a_qs, container, false);
+        view = inflater.inflate(R.layout.fragment_f_a_qs, container, false);
         rcvFAQs = view.findViewById(R.id.rcv_FAQs);
         rcvFAQs.setHasFixedSize(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
@@ -50,9 +54,10 @@ public class FAQsFragment extends Fragment {
         return view;
     }
 
+    @SuppressLint("ResourceType")
     private void onClickItem(TextView tvTitle, TextView tvContent, ItemSupportModel itemSupportModel) {
         if (itemSupportModel.isReaded()){
-            tvTitle.setTypeface(null, Typeface.NORMAL);
+            tvTitle.setTypeface(Typeface.createFromAsset(view.getContext().getAssets(), view.getContext().getResources().getString(R.string.adobe_garamond_pro_bold1)));
             tvContent.setVisibility(View.GONE);
         }else {
             tvTitle.setTypeface(null, Typeface.BOLD);

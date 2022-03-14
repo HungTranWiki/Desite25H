@@ -10,6 +10,8 @@
     <TextView
         android:textSize="16dp"
         android:text="FAQs"
+        android:textColor="#121212"
+        android:fontFamily="@font/gotu_regular"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"

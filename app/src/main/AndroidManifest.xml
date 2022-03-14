@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.25HDesign">
         <activity
-            android:name=".favorite.FavoriteActivity"
+            android:name=".Support.SupportActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,15 +19,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".bottomSheet.BottomSheetActivity"
-            android:exported="false" >
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
+            android:name=".favorite.FavoriteActivity"
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".bottomSheet.BottomSheetActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"></activity>
     </application>
 
 </manifest>

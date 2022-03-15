@@ -48,13 +48,13 @@ public class BottomSheetActivity extends AppCompatActivity {
         listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
 
         List<AvatarModel> list = new ArrayList<>();
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
-        list.add(new AvatarModel(R.drawable.avatar,R.drawable.icon_messenger,"Micheal Jackson"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
+        list.add(new AvatarModel(R.drawable.img_avatar,R.drawable.icon_messenger,"Laura Scott"));
 
 
 

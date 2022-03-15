@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="text_size_status_of_posts">10dp</dimen>
+    <dimen name="text_size_my_cart">18dp</dimen>
+    <dimen name="text_empty_the_cart">12dp</dimen>
+    <dimen name="text_number_of_items">14dp</dimen>
+    <dimen name="text_number">14dp</dimen>
+    <dimen name="text_redeem_point">16dp</dimen>
     <dimen name="size_width_height_logo_avatar_default">100dp</dimen>
     <dimen name="margin_top_logo_avatar_to_border_top_profile">36dp</dimen>
     <dimen name="size_width_height_icon_camera">25dp</dimen>
@@ -143,5 +149,4 @@
     <dimen name="text_size_protest_support">14dp</dimen>
     <dimen name="padding_dialog_submit_inquiry_form_support">32dp</dimen>
     <dimen name="text_size_label_faqs">16dp</dimen>
-
 </resources>

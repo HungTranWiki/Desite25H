@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="17.62dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <CheckBox
+        android:id="@+id/checkbox_my_cart"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:backgroundTint="@color/check_box"></CheckBox>
+
+    <RelativeLayout
+        android:id="@+id/layout_img_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12.87dp"
+        android:layout_toRightOf="@+id/checkbox_my_cart">
+
+        <ImageView
+            android:id="@+id/image_order_my_cart"
+            android:layout_width="66dp"
+            android:layout_height="66dp" />
+
+        <RelativeLayout
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_order_my_cart"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/textview_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/textview_amount"
+                android:fontFamily="@font/jost_light"
+                android:text="-"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_number_of_items" />
+
+            <TextView
+                android:id="@+id/textview_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/jost_light"
+                android:text="2"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_number_13dp" />
+
+            <TextView
+                android:id="@+id/textview_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/textview_amount"
+                android:fontFamily="@font/jost_light"
+                android:text="-"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_number_of_items" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_order_my_cart"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:text="@string/price_my_cart"
+            android:textColor="@color/color_black_1"
+            android:textSize="@dimen/text_number_of_items" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/textview_name_order"
+        android:layout_toRightOf="@+id/layout_img_order"
+        android:layout_marginLeft="11.75dp"
+        android:textSize="@dimen/text_number_of_items"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/musk_melon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textview_detail_order"
+        android:layout_toRightOf="@+id/layout_img_order"
+        android:layout_marginLeft="11.75dp"
+        android:layout_below="@+id/textview_name_order"
+        android:layout_marginTop="4dp"
+        android:textSize="@dimen/text_number_of_items"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/musk_melon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

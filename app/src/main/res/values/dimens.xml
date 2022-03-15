@@ -149,4 +149,5 @@
     <dimen name="text_size_protest_support">14dp</dimen>
     <dimen name="padding_dialog_submit_inquiry_form_support">32dp</dimen>
     <dimen name="text_size_label_faqs">16dp</dimen>
+    <dimen name="text_number_13dp">13</dimen>
 </resources>

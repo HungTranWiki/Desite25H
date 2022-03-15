@@ -46,11 +46,12 @@
             <include layout="@layout/horizontal_line_my_cart"/>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:layout_marginTop="17.5dp"
-                android:id="@+id/rcv_order"
+                android:id="@+id/rcv_my_cart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15.8dp"/>
+                android:layout_marginTop="17.5dp"
+                android:layout_marginBottom="15.8dp" />
+
             <include layout="@layout/horizontal_line_my_cart"/>
             <RelativeLayout
                 android:layout_marginTop="53dp"
@@ -61,19 +62,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Number of Items"
+                    android:text="@string/number_of_items"
                     android:textColor="@color/text_empty_the_cart"
                     android:textSize="@dimen/text_number_of_items" />
+
                 <TextView
                     android:id="@+id/textview_number_of_item"
-                    android:textSize="@dimen/text_number"
-                    android:textColor="@color/text_empty_the_cart"
-                    android:text="3"
-                    android:fontFamily="@font/jost_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="20.25dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/number"
+                    android:textColor="@color/text_empty_the_cart"
+                    android:textSize="@dimen/text_number" />
             </RelativeLayout>
             <include layout="@layout/horizontal_line_my_cart"/>
             <RelativeLayout
@@ -81,12 +83,13 @@
                 android:layout_marginBottom="6dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
-                    android:text="Subtotal"
-                    android:textSize="@dimen/text_number_of_items"
-                    android:textColor="@color/text_empty_the_cart"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtotal"
+                    android:textColor="@color/text_empty_the_cart"
+                    android:textSize="@dimen/text_number_of_items" />
 
                 <TextView
                     android:id="@+id/textview_number_subtotal"
@@ -105,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:text="Shipper Fee"
+                    android:text="@string/shipper_fee"
                     android:textSize="@dimen/text_number_of_items"
                     android:textColor="@color/text_empty_the_cart"
                     android:layout_width="wrap_content"
@@ -114,7 +117,7 @@
                     android:id="@+id/textview_number_shipper_fee"
                     android:textSize="@dimen/text_number"
                     android:textColor="@color/text_empty_the_cart"
-                    android:text="$0"
+                    android:text="@string/_dolar"
                     android:fontFamily="@font/jost_light"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="20.25dp"
@@ -126,17 +129,18 @@
                 android:layout_marginBottom="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
-                    android:text="Tax"
-                    android:textSize="@dimen/text_number_of_items"
-                    android:textColor="@color/text_empty_the_cart"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/tax"
+                    android:textColor="@color/text_empty_the_cart"
+                    android:textSize="@dimen/text_number_of_items" />
                 <TextView
                     android:id="@+id/textview_number_tax"
                     android:textSize="@dimen/text_number"
                     android:textColor="@color/text_empty_the_cart"
-                    android:text="$0"
+                    android:text="@string/_dolar"
                     android:fontFamily="@font/jost_light"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="20.25dp"
@@ -147,41 +151,70 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="17dp">
+
                 <TextView
                     android:id="@+id/texview_radeem"
-                    android:text="Redeem Points"
-                    android:textSize="@dimen/text_redeem_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/jost_medium"
+                    android:text="@string/redeem_points"
                     android:textColor="@color/text_empty_the_cart"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="@dimen/text_redeem_point" />
+
+                <RelativeLayout
+                    android:id="@+id/yourpoint_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/texview_radeem"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/textview_your_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/your_points"
+                        android:textColor="@color/text_empty_the_cart"
+                        android:textSize="@dimen/text_number_of_items" />
+
+                    <TextView
+                        android:id="@+id/textview_number_of_your_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.25dp"
+                        android:fontFamily="@font/jost_light"
+                        android:text="@string/_dolar"
+                        android:textColor="@color/text_empty_the_cart"
+                        android:textSize="@dimen/text_number" />
+                </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/textview_your_points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Your Points"
-                    android:layout_alignTop="@+id/texview_radeem"
-                    android:layout_marginTop="20dp"
-                    android:textColor="@color/text_empty_the_cart"
-                    android:textSize="@dimen/text_number_of_items" />
-
-                <TextView
-                    android:id="@+id/textview_number_of_your_points"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginStart="283dp"
-                    android:layout_marginRight="20.25dp"
-                    android:layout_toLeftOf="@+id/textview_your_points"
-                    android:layout_toEndOf="@+id/textview_your_points"
+                    android:layout_marginTop="6dp"
+                    android:layout_below="@+id/yourpoint_layout"
                     android:fontFamily="@font/jost_light"
-                    android:text="$0"
-                    android:textColor="@color/text_empty_the_cart"
-                    android:textSize="@dimen/text_number" />
+                    android:text="@string/redeem_at_checkout_step_2"
+                    android:textColor="@color/color_checkout_step2"
+                    android:textSize="@dimen/text_empty_the_cart" />
 
             </RelativeLayout>
+            <Button
+                android:paddingTop="9dp"
+                android:paddingBottom="11dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/button_earn_point"
+                android:textSize="@dimen/text_number_of_items"
+                android:textColor="@color/earned"
+                android:text="@string/earned_up_to_17_points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

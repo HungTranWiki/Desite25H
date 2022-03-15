@@ -40,10 +40,10 @@ public class BottomSheetActivity extends AppCompatActivity {
 
 
         List<AppModel> listApp = new ArrayList<>();
+        listApp.add(new AppModel(R.drawable.logo_message,"Message"));
+        listApp.add(new AppModel(R.drawable.mail_logo,"Mail"));
         listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
-        listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
-        listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
-        listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
+        listApp.add(new AppModel(R.drawable.logo_whatsaap,"Whatsapp"));
         listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
         listApp.add(new AppModel(R.drawable.icon_messenger,"Messenger"));
 

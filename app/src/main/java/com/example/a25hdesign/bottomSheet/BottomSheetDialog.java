@@ -23,7 +23,7 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
     private List<AvatarModel> listAvatar;
     private List<AppModel> listAppShare;
 
-    public BottomSheetDialog( List<AppModel> listAppShare, List<AvatarModel> listAvatar) {
+    public BottomSheetDialog(List<AppModel> listAppShare, List<AvatarModel> listAvatar) {
         this.listAvatar = listAvatar;
         this.listAppShare = listAppShare;
     }
@@ -53,6 +53,9 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
 
 
         return bottomSheetDialog;
-
+    }
+    @Override
+    public int getTheme(){
+        return R.style.AppBottomSheetDialogTheme;
     }
 }

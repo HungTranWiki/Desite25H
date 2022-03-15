@@ -126,4 +126,16 @@
     <string name="text_operating_hours_test">Mon to Fri: 0900 to 1800 \nEve of PH: 0900 to 1300\nPH, Sat, Sun: Office Closed</string>
     <string name="text_message_protest_support">Your message is being handled by our dedicated Membership Service Consultant.\n\nWe will get in touch with you soon.\nIn the unlikely event that you do not hear from us within 3 working days, kindly contact us at:</string>
     <string name="text_button_ok">OK</string>
+    <string name="redeem_points">Redeem Points</string>
+    <string name="_dolar">$0</string>
+    <string name="number">3</string>
+    <string name="number_of_items">Number of Items</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipper_fee">Shipper Fee</string>
+    <string name="tax">Tax</string>
+    <string name="your_points">Your Points</string>
+    <string name="redeem_at_checkout_step_2">Redeem at Checkout Step 2</string>
+    <string name="earned_up_to_17_points">Earned up to 17 Points</string>
+    <string name="musk_melon">Musk Melon</string>
+    <string name="price_my_cart">$110.30</string>
 </resources>

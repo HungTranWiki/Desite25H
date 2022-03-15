@@ -25,4 +25,7 @@
     <color name="color_yellow_2">#f7e6d2</color>
     <color name="color_yellow_3">#9F703A</color>
     <color name="g">#C3C3C3</color>
+    <color name="color_checkout_step2">#383838</color>
+    <color name="earned">#9F703A</color>
+    <color name="check_box">#9F703A</color>
 </resources>

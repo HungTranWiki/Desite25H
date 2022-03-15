@@ -1,48 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="320dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginRight="20dp"
-    android:layout_marginLeft="20dp"
     android:gravity="center_vertical">
 
     <ImageView
+        android:scaleType="fitXY"
         android:id="@+id/imageLogo_privileges"
         android:layout_width="match_parent"
         android:layout_height="212.29dp"/>
     <TextView
         android:id="@+id/textview_status_privileges"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#303030"
         android:text="@string/text_status_test"
         android:textSize="@dimen/text_size_status_of_posts"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/jost_regular"/>
     <TextView
+        android:layout_marginTop="4dp"
         android:id="@+id/textview_title_privileges"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="15dp"
         android:fontFamily="@font/jost_medium"
         android:text="Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed  dian sit."
         />
 
     <TextView
+        android:layout_marginTop="4dp"
         android:id="@+id/textview_category_privileges"
         android:text="Location Cuisine"
         android:textColor="#303030"
+        android:textSize="13dp"
         android:fontFamily="@font/jost_regular"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <TextView
+        android:layout_marginTop="4dp"
         android:id="@+id/textview_desc_privileges"
         android:text="Flavorful camembert cheese from the'hokkaido kobayusi'"
         android:fontFamily="@font/jost_light"
-        android:layout_width="match_parent"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
         android:textColor="#303030"
         android:layout_height="wrap_content"/>
 
     <RelativeLayout
+        android:layout_marginTop="16dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,19 +60,20 @@
 
         <ImageButton
             android:id="@+id/button_like_privileges"
-            android:layout_width="wrap_content"
-            android:layout_height="14dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_favorite" />
+            android:background="@drawable/icon_favorite" />
+
         <Button
             android:id="@+id/button_view_detail_privileges"
             android:layout_width="286.8dp"
             android:layout_height="32dp"
-            android:background="@drawable/shape_button"
             android:layout_alignParentRight="true"
+            android:background="@drawable/shape_button"
             android:text="Add to cart"
-            android:textSize="11dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:textSize="11dp" />
     </RelativeLayout>
 
 

@@ -43,17 +43,17 @@ public class ShopFragment extends Fragment {
 
     private List<ShopModel> getListShopModel() {
         List<ShopModel> list = new ArrayList<>();
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
-        list.add(new ShopModel(R.drawable.ic_launcher_foreground,"Shop name 1", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
+        list.add(new ShopModel(R.drawable.food,"Boiled Snow Crab Meat Flake - Approx 200g/Pack", "$50"));
 
         return list;
     }

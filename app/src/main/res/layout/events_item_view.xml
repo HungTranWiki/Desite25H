@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="320dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginRight="20dp"
-    android:layout_marginLeft="20dp"
     android:gravity="center_vertical">
     
     <ImageView
+        android:scaleType="fitXY"
         android:id="@+id/imageLogo_event"
+        android:src="@drawable/img_event"
         android:layout_width="match_parent"
         android:layout_height="212.29dp"/>
     <TextView
         android:id="@+id/textview_status_event"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_status_test"
         android:textSize="@dimen/text_size_status_of_posts"
+        android:textColor="#303030"
         android:fontFamily="@font/jost_regular"/>
     <TextView
+        android:layout_marginTop="4.79dp"
         android:id="@+id/textview_name_event"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jost_medium"
+        android:textColor="#303030"
         android:text="Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed  dian sit."
         />
     
@@ -30,6 +34,7 @@
         android:id="@+id/textview_date_time_event"
         android:text="Time"
         android:textColor="#303030"
+        android:textSize="13dp"
         android:fontFamily="@font/jost_regular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -38,6 +43,7 @@
         android:layout_height="wrap_content"
         android:textColor="#303030"
         android:layout_marginTop="5dp"
+        android:textSize="13dp"
         android:fontFamily="@font/jost_regular"
         android:text="Category"
         />
@@ -45,8 +51,10 @@
         android:id="@+id/textview_desc_event"
         android:text="Flavorful camembert cheese from the'hokkaido kobayusi'"
         android:fontFamily="@font/jost_light"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:textColor="#303030"
+        android:layout_marginTop="4.79dp"
+        android:textSize="13dp"
         android:layout_height="wrap_content"/>
 
     <RelativeLayout
@@ -57,19 +65,21 @@
 
         <ImageButton
             android:id="@+id/button_like_event"
-            android:layout_width="wrap_content"
-            android:layout_height="14dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_favorite" />
+            android:background="@drawable/icon_favorite" />
+
         <Button
             android:id="@+id/button_add_event"
             android:layout_width="286.8dp"
             android:layout_height="32dp"
-            android:background="@drawable/shape_button"
             android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_button"
             android:text="Add to cart"
-            android:textSize="11dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:textSize="11dp" />
     </RelativeLayout>
 
 

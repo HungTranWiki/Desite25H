@@ -38,11 +38,11 @@ public class EventsFragment extends Fragment {
 
     private List<EventsModel> getListEvent() {
         List<EventsModel> list = new ArrayList<>();
-        list.add(new EventsModel(R.drawable.ic_launcher_background,"Online","EventName","Description event","10 jan 2022"));
-        list.add(new EventsModel(R.drawable.ic_launcher_background,"Online","EventName","Description event","10 jan 2022"));
-        list.add(new EventsModel(R.drawable.ic_launcher_background,"Online","EventName","Description event","10 jan 2022"));
-        list.add(new EventsModel(R.drawable.ic_launcher_background,"Online","EventName","Description event","10 jan 2022"));
-        list.add(new EventsModel(R.drawable.ic_launcher_background,"Online","EventName","Description event","10 jan 2022"));
+        list.add(new EventsModel(R.drawable.img_event,"Online","Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Flavorful camembert cheese from the “Hokkaido Kobayashi Bokujo Monogatari (Kobayashi Farm in Hokkaido)” is used. ","Jan 21, 2022 • 7:00 PM • 10 Remaining Slot"));
+        list.add(new EventsModel(R.drawable.img_event,"Online","Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Flavorful camembert cheese from the “Hokkaido Kobayashi Bokujo Monogatari (Kobayashi Farm in Hokkaido)” is used. ","Jan 21, 2022 • 7:00 PM • 10 Remaining Slot"));
+        list.add(new EventsModel(R.drawable.img_event,"Online","Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Flavorful camembert cheese from the “Hokkaido Kobayashi Bokujo Monogatari (Kobayashi Farm in Hokkaido)” is used. ","Jan 21, 2022 • 7:00 PM • 10 Remaining Slot"));
+        list.add(new EventsModel(R.drawable.img_event,"Online","Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Flavorful camembert cheese from the “Hokkaido Kobayashi Bokujo Monogatari (Kobayashi Farm in Hokkaido)” is used. ","Jan 21, 2022 • 7:00 PM • 10 Remaining Slot"));
+        list.add(new EventsModel(R.drawable.img_event,"Online","Event Listing Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Flavorful camembert cheese from the “Hokkaido Kobayashi Bokujo Monogatari (Kobayashi Farm in Hokkaido)” is used. ","Jan 21, 2022 • 7:00 PM • 10 Remaining Slot"));
         return list;
     }
 }

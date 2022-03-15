@@ -39,12 +39,12 @@ public class PrivilegesFragment extends Fragment {
 
     private List<PrivilegesModel> getListPrivileges() {
         List<PrivilegesModel> list = new ArrayList<>();
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
-        list.add(new PrivilegesModel(R.drawable.ic_favorite,"Priority Reservation","Title","Location Cuisine","Descrition"));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
+        list.add(new PrivilegesModel(R.drawable.img_privileges,"Priority Reservation","Partner Name Placeholder lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam sit","Location Cuisine","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos and..."));
 
         return list;
     }

@@ -182,9 +182,6 @@
                     android:textSize="@dimen/text_number" />
 
             </RelativeLayout>
-
-
-
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

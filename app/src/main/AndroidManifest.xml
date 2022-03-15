@@ -17,16 +17,18 @@
             android:exported="false" />
         <activity
             android:name=".Support.SupportActivity"
-            android:exported="true">
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".favorite.FavoriteActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".favorite.FavoriteActivity"
-            android:exported="false" />
         <activity
             android:name=".bottomSheet.BottomSheetActivity"
             android:exported="false" />

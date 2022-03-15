@@ -16,15 +16,23 @@
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_avatar.xml" value="0.17" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/item_privileges.xml" value="0.10914855072463768" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/25HDesign/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/drawable/black_button.xml" value="0.146" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/drawable/shape_button.xml" value="0.146" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/activity_check_out.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/activity_my_favourite.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/activity_support.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/events_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/events_item_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/fragment_f_a_qs.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/horizontal_line.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/horizontal_line_my_cart.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/item_privileges.xml" value="0.1" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/item_support.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/shop_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/trant/AndroidStudioProjects/Desite25H/app/src/main/res/layout/shop_item_view.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

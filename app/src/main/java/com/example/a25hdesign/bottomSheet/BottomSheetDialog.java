@@ -56,6 +56,6 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
     }
     @Override
     public int getTheme(){
-        return R.style.AppBottomSheetDialogTheme;
+        return R.style.AppBottomSheetDialogThemeCheckOut;
     }
 }

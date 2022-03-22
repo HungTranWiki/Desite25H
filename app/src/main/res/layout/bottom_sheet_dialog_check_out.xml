@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_28dp"
+    android:paddingRight="@dimen/padding_20dp"
+    android:paddingLeft="@dimen/padding_20dp"
+    android:paddingBottom="@dimen/margin_40">
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="@dimen/height_15dp"
+        android:textSize="@dimen/text_size_18dp"
+        android:fontFamily="@font/gotu_regular"
+        android:text="Redeem Points"
+        android:textColor="@color/color_black_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:background="@color/color_white_6"
+        android:padding="@dimen/padding_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview_you_have"
+            android:text="@string/you_have"
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/color_black_2"
+            android:textSize="@dimen/text_size_14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textview_point_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_you_have"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:fontFamily="@font/jost_regular"
+            android:text="@string/_100_points"
+            android:textColor="@color/color_black_1"
+            android:textSize="@dimen/text_size_18dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/_1_point_1"
+        android:textSize="@dimen/text_size_13dp"
+        android:fontFamily="@font/jost_light"
+        android:textColor="@color/color_black_4"
+        android:layout_marginTop="@dimen/padding_top_10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/redeem"
+        android:textSize="@dimen/padding_top_10dp"
+        android:fontFamily="@font/jost_regular"
+        android:textColor="@color/color_black_4"
+        android:layout_marginTop="@dimen/margin_33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/padding_top_10dp"
+        android:layout_marginLeft="@dimen/padding_top_10dp"
+        android:layout_marginBottom="@dimen/padding_top_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/_0_1011"
+            android:textSize="@dimen/height_15dp"
+            android:textColor="@color/color_gray_3"
+            android:fontFamily="@font/jost_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Max"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_yellow_3"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <include layout="@layout/horizontal_line_match_parent"/>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/margin_34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp">
+        <TextView
+            android:id="@+id/textview_confirm"
+            android:gravity="center"
+            android:background="@color/black"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/margin_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_44dp"/>
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview_cancel"
+            android:layout_marginTop="@dimen/padding_top_10dp"
+            android:gravity="center"
+            android:background="@drawable/corner_button"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/margin_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_44dp"/>
+
+
+</LinearLayout>

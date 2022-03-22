@@ -28,4 +28,9 @@
     <color name="color_checkout_step2">#383838</color>
     <color name="earned">#9F703A</color>
     <color name="check_box">#9F703A</color>
+    <color name="yellow_4">#BFF8ECDD</color>
+    <color name="color_white_6">#F9F9F9</color>
+    <color name="color_black_4">#707070</color>
+    <color name="silver">#959595</color>
+    <color name="gray_6">#A5A5A5</color>
 </resources>

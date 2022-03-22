@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_17"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingRight="@dimen/margin_10">
+
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/corner_textview"
+                    android:gravity="center"
+                    android:text="@string/_1"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_line1"
+                    android:layout_width="69dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/tv_1"
+                    android:background="@color/color_black_1" />
+
+                <TextView
+                    android:id="@+id/tv_2"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_line1"
+                    android:background="@drawable/corner_textview"
+                    android:gravity="center"
+                    android:text="@string/_2"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_line2"
+                    android:layout_width="69dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_2"
+                    android:background="@color/color_black_1" />
+
+                <TextView
+                    android:id="@+id/tv_3"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_line2"
+                    android:background="@drawable/corner_textview"
+                    android:gravity="center"
+                    android:text="@string/_3"
+                    android:textColor="@color/color_black_1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_22dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tv_payment"
+                    android:layout_marginRight="95dp"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/shipping"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_12dp" />
+
+                <TextView
+                    android:id="@+id/tv_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/payment"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_payment"
+                    android:layout_marginLeft="85dp"
+                    android:fontFamily="@font/jost_light"
+                    android:text="Confirmation"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_12dp" />
+            </RelativeLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/margin_77dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="true"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_40"
+                android:fontFamily="@font/jost_regular"
+                android:text="@string/text_shipping_address"
+                android:textColor="@color/color_black_2"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_7"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_name_test"
+                android:textColor="@color/color_black_4"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_7"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_address_order_details_test"
+                android:textColor="@color/color_black_4"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/txtPostCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_7"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_post_code_test"
+                android:textColor="@color/color_black_4"
+                android:textSize="@dimen/text_size_14" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@color/color_gray_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:fontFamily="@font/jost_regular"
+                android:text="@string/text_payment_method"
+                android:textColor="@color/color_black_2"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgCard"
+                    android:layout_width="@dimen/margin_24"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_visa_blue_background" />
+
+                <TextView
+                    android:id="@+id/txtNumberCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/text_number_card_test"
+                    android:textColor="@color/color_black_2"
+                    android:textSize="@dimen/text_size_14"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@color/color_gray_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:fontFamily="@font/jost_regular"
+                android:text="@string/text_order_details"
+                android:textColor="@color/color_black_2"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_Confirmation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_17" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_46_77dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="Number of Items"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_3"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14dp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/subtotal"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/txtSubtal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_179_30"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/text_shipping_fee"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/txtShippingFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_5_00"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/text_tax"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/txtTax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_0_00"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@color/color_gray_2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:background="@color/color_gray_2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/balance_points"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_50"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/redeemed_50_points"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/jost_light"
+                    android:text="@string/_50_00"
+                    android:textColor="@color/color_black_1"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginBottom="@dimen/margin_40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@color/color_yellow_2"
+                android:fontFamily="@font/jost_medium"
+                android:gravity="center"
+                android:padding="@dimen/margin_10"
+                android:text="@string/earned_up_to_17_points"
+                android:textColor="@color/color_yellow_3"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/margin_lets_20dp"
+        android:paddingTop="@dimen/padding_9dp"
+        android:paddingBottom="@dimen/padding_9dp"
+        android:paddingLeft="@dimen/margin_lets_20dp"
+        android:background="@drawable/stroke">
+
+        <TextView
+            android:id="@+id/textview_total_price_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jost_medium"
+            android:text="@string/total_179_30"
+            android:textColor="@color/color_black_1"
+            android:textSize="@dimen/text_size_16dp" />
+
+        <TextView
+            android:id="@+id/textview_Prevailing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_total_price_cart"
+            android:fontFamily="@font/jost_light"
+            android:text="@string/incl_prevailing_gst"
+            android:textColor="@color/color_gray_4"
+            android:textSize="@dimen/textsize_11dp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:cardCornerRadius="@dimen/corner_30dp">
+            <Button
+                android:id="@+id/button_next_confirmation"
+                android:layout_width="@dimen/width_size_120dp"
+                android:layout_height="@dimen/height_size_40dp"
+                android:background="@color/color_black_1"
+                android:fontFamily="@font/jost_regular"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16dp"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>
+

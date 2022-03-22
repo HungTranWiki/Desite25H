@@ -16,4 +16,16 @@
 
         <item name="android:background">@drawable/shape_bottom_sheet</item>
     </style>
+
+    <style name="AppBottomSheetDialogThemeCheckOut"
+        parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyleCheckout</item>
+    </style>
+
+    <style name="CustomBottomSheetStyleCheckout"
+        parent="Widget.Design.BottomSheet.Modal">
+
+        <item name="android:background">@drawable/backgroud_bottom_sheet_checkout</item>
+    </style>
 </resources>

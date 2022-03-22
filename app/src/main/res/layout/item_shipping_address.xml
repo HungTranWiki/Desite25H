@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width_300dp"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_20dp"
+    android:background="@drawable/corner_shipping_item">
+
+    <TextView
+        android:id="@+id/textview_name_of_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_regular"
+        android:text="@string/jane_smith"
+        android:textColor="@color/color_black_1"
+        android:textSize="@dimen/text_size_14dp" />
+    <TextView
+        android:id="@+id/textview_address"
+        android:text="@string/_70a_street_name_08_115"
+        android:fontFamily="@font/jost_light"
+        android:textSize="@dimen/text_size_12dp"
+        android:textColor="@color/color_black_1"
+        android:layout_below="@id/textview_name_of_address"
+        android:layout_marginTop="@dimen/padding_6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview_nation_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_address"
+        android:layout_marginTop="@dimen/padding_6dp"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/singapore_346897"
+        android:textColor="@color/color_black_1"
+        android:textSize="@dimen/text_size_12dp" />
+    <TextView
+        android:text="@string/edit"
+        android:textSize="@dimen/text_size_12dp"
+        android:fontFamily="@font/jost_light"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

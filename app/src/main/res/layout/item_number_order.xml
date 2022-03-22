@@ -43,7 +43,7 @@
             android:layout_marginTop="4dp"
             android:layout_toRightOf="@+id/image_order_my_cart"
             android:fontFamily="@font/jost_light"
-            android:text="@string/musk_melon"
+            android:text="@string/the_time_110_30_11_points"
             android:textSize="@dimen/text_number_of_items" />
 
         <RelativeLayout
@@ -53,38 +53,14 @@
             android:layout_marginTop="@dimen/margin_top_17dp">
 
             <TextView
-                android:id="@+id/textview_decrease"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/margin_right_14dp"
-                android:layout_toLeftOf="@+id/textview_amount"
-                android:background="@color/color_white_6"
-                android:fontFamily="@font/jost_light"
-                android:text="@string/minus"
-                android:textColor="@color/color_gray_4"
-                android:textSize="@dimen/text_size_16dp" />
-
-            <TextView
                 android:id="@+id/textview_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/jost_light"
-                android:text="@string/_2"
-                android:textColor="@color/color_black_1"
-                android:textSize="@dimen/text_number_13dp" />
+                android:text="@string/qty_1"
+                android:textColor="@color/color_black_4"
+                android:textSize="@dimen/text_size_12dp" />
 
-            <TextView
-                android:id="@+id/textview_increase"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/margin_left_14dp"
-                android:layout_toRightOf="@+id/textview_amount"
-                android:background="@color/color_white_6"
-                android:fontFamily="@font/jost_light"
-                android:text="+"
-                android:textColor="@color/color_gray_4"
-                android:textSize="@dimen/text_size_16dp" />
         </RelativeLayout>
 
         <TextView
@@ -95,9 +71,20 @@
             android:layout_alignParentRight="true"
             android:layout_marginTop="@dimen/margin_top_17dp"
             android:fontFamily="@font/jost_medium"
+            android:textStyle="bold"
             android:text="@string/price_my_cart"
             android:textColor="@color/color_black_1"
-            android:textSize="@dimen/text_number_of_items"
-            android:textStyle="bold" />
+            android:textSize="@dimen/text_number_of_items" />
     </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

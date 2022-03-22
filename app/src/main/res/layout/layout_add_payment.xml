@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_20dp"
+    android:paddingTop="@dimen/padding_27_54dp"
+    android:paddingRight="@dimen/padding_20dp">
+
+    <ImageView
+        android:id="@+id/button_back_add_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_back"/>
+    <TextView
+        android:layout_marginTop="@dimen/margin_16"
+        android:textSize="@dimen/text_size_18dp"
+        android:textColor="@color/color_black_2"
+        android:text="@string/add_payment"
+        android:fontFamily="@font/gotu_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/jost_light"
+        android:textSize="@dimen/text_size_14"
+        android:textColor="@color/color_black_4"
+        android:text="@string/all_fields_are_required"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="@dimen/text_size_10dp"
+        android:textColor="@color/color_gray_3"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"/>
+    <EditText
+        android:id="@+id/edittext_full_name"
+        android:layout_marginTop="@dimen/margin_10"
+        android:hint="  Full name"
+        android:textSize="@dimen/text_size_15dp"
+        android:backgroundTint="@color/color_gray_3"
+        android:textColorHint="@color/color_gray_3"
+        android:fontFamily="@font/jost_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="@dimen/text_size_10dp"
+        android:textColor="@color/color_gray_3"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"/>
+    <EditText
+        android:id="@+id/edittext_card_number"
+        android:layout_marginTop="@dimen/margin_10"
+        android:hint="  XXXX-XXXX-XXXX-XXXX"
+        android:textSize="@dimen/text_size_15dp"
+        android:backgroundTint="@color/color_gray_3"
+        android:textColorHint="@color/color_gray_3"
+        android:fontFamily="@font/jost_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_12"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="EXPIRY"
+                android:textSize="@dimen/text_size_10dp"
+                android:textColor="@color/color_gray_3"
+                android:fontFamily="@font/jost_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edittext_expire"
+                android:backgroundTint="@color/color_gray_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  MM/YY"
+                android:textSize="@dimen/text_size_15dp"
+                android:textColorHint="@color/color_gray_3"
+                android:fontFamily="@font/jost_light"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin_17"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="CVV"
+                android:textSize="@dimen/text_size_10dp"
+                android:textColor="@color/color_gray_3"
+                android:fontFamily="@font/jost_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edittext_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/color_gray_3"
+                android:textSize="@dimen/text_size_15dp"
+                android:textColorHint="@color/color_gray_3"
+                android:fontFamily="@font/jost_light"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_left_14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkbox_add_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_check_box" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_toRightOf="@+id/checkbox_add_address"
+            android:fontFamily="@font/jost_light"
+            android:text="@string/set_as_default_address"
+            android:textColor="@color/color_black_1"
+            android:textSize="@dimen/text_size_15dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/corner_24dp"
+        android:id="@+id/textview_add_payment"
+        android:gravity="center"
+        android:background="@drawable/black_button"
+        android:fontFamily="@font/jost_regular"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Add"/>
+
+</LinearLayout>

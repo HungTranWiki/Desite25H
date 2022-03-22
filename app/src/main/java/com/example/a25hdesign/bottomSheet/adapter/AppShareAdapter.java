@@ -53,7 +53,7 @@ public class AppShareAdapter extends RecyclerView.Adapter<AppShareAdapter.AppSha
     }
 
     public class AppShareViewHolder extends RecyclerView.ViewHolder{
-        ImageButton btnAppShare;
+        ImageView btnAppShare;
         TextView tvAppShare;
         public AppShareViewHolder(@NonNull View itemView) {
             super(itemView);

@@ -1,6 +1,5 @@
 package com.example.a25hdesign.CkeckOut.adapter;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,10 +14,10 @@ import com.example.a25hdesign.R;
 
 import java.util.List;
 
-public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartViewHolder>{
+public class NumberOrderAdapter extends RecyclerView.Adapter<NumberOrderAdapter.NumberOrderViewHolder> {
     List<MyCartModel> mListOrder;
 
-    public MyCartAdapter(List<MyCartModel> mListOrder) {
+    public NumberOrderAdapter(List<MyCartModel> mListOrder) {
         this.mListOrder = mListOrder;
     }
 
@@ -27,16 +26,15 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         notifyDataSetChanged();
 
     }
-
     @NonNull
     @Override
-    public MyCartViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_my_cart,parent,false);
-        return new MyCartViewHolder(view);
+    public NumberOrderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_number_order,parent,false);
+        return new NumberOrderViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyCartViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull NumberOrderViewHolder holder, int position) {
         MyCartModel myCartModel = mListOrder.get(position);
         if (myCartModel == null){
             return;
@@ -46,7 +44,6 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         holder.tvNameOrder.setText(myCartModel.getNameOrdel());
         holder.tvDetailOrder.setText(myCartModel.getDetailOrder());
         holder.tvTotalPrice.setText(myCartModel.getTotalPrice());
-
     }
 
     @Override
@@ -57,15 +54,14 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         return 0;
     }
 
-    public class MyCartViewHolder extends RecyclerView.ViewHolder{
+    public class NumberOrderViewHolder extends RecyclerView.ViewHolder {
         ImageView imgMyCartOrder;
         TextView tvNameOrder;
         TextView tvDetailOrder;
         TextView tvAmountOrder;
         TextView tvTotalPrice;
-        public MyCartViewHolder(@NonNull View itemView) {
+        public NumberOrderViewHolder(@NonNull View itemView) {
             super(itemView);
-
             imgMyCartOrder = itemView.findViewById(R.id.image_order_my_cart);
             tvNameOrder = itemView.findViewById(R.id.textview_name_order);
             tvDetailOrder = itemView.findViewById(R.id.textview_detail_order);
